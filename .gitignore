@@ -1,2 +1,4 @@
-/config.json
-/idarray.txt
+config.json
+idarray.txt
+node_modules
+package-lock.json
