@@ -57,6 +57,8 @@ async def on_ready():
         print("Added: " + str(userDays) + " Days")
         await member.edit(nick=newnick)
 
+        #Command to check for updates every second
+
 @bot.command()
 async def set(ctx, usermonth, userdate, useryear):
     useryear = "20" + str(useryear[-2:])
