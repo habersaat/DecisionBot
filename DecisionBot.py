@@ -59,6 +59,8 @@ async def on_ready():
 
         #Command to check for updates every second
 
+        #Add command for notifcation
+
 @bot.command()
 async def set(ctx, usermonth, userdate, useryear):
     useryear = "20" + str(useryear[-2:])
