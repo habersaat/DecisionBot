@@ -8,6 +8,7 @@ from discord.ext import tasks
 from discord.ext.commands import MemberConverter
 from discord.flags import Intents
 import json
+import time
 
 today = date.today()
 
@@ -58,7 +59,8 @@ async def on_ready():
         await member.edit(nick=newnick)
 
         #Command to check for updates every second
-
+        while True:
+            time.sleep(1)
         #Add command for notifcation
 
 @bot.command()
