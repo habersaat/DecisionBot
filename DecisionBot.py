@@ -60,7 +60,7 @@ async def on_ready():
 
         #Command to check for updates every second
         while True:
-            time.sleep(1)
+            time.sleep(1) #potentially chance
         #Add command for notifcation
 
 @bot.command()
