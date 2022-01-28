@@ -61,7 +61,7 @@ async def on_ready():
         #Command to check for updates every second
         while True:
             time.sleep(1) #potentially chance
-        #Add command for notifcation
+        #Add method for notifcation
 
 @bot.command()
 async def set(ctx, usermonth, userdate, useryear):
