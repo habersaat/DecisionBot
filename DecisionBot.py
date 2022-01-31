@@ -21,7 +21,7 @@ with open("config.json", "r") as configjsonFile:
     IDARRAYPATH = configData["idarraypath"]
     GUILDID = configData["guildid"]
 bot = discord.Client()
-bot = commands.Bot(command_prefix='$')
+bot = commands.Bot(command_prefix='%')
 
 @bot.event
 async def on_ready():
